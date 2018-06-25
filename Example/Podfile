@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WCCamera_Example' do
+  pod 'WCCamera', :path => '../'
+
+  target 'WCCamera_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
